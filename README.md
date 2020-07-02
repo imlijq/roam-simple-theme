@@ -37,11 +37,18 @@
 ![Leyendecker](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2Ffc9tIphX_X.png?alt=media&token=f6c09e01-742a-478d-a537-0b3a88796325)
 
 ```css
-@import url('');
+@import url('https://raw.githubusercontent.com/imlijq/awesome-roam-themes/master/Leyendecker.css');
 ```
 
+--- 
 
+[Zenith](https://roamresearch.com/#/app/help/page/fJRcVITNY)
 
+![Zenith](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FpF2OCzwlH2.png?alt=media&token=4bd42cd5-cd10-49a6-a915-a328ff067467)
+
+```css
+@import url('https://raw.githubusercontent.com/imlijq/awesome-roam-themes/master/Zenith.css');
+```
 
 
 ## dark themes
