@@ -14,40 +14,40 @@
 
 [Zenithdecker](https://github.com/theianjones/roam-research-themes#themes-currently-available)
 
-![Zenithdecker](https://raw.githubusercontent.com/theianjones/roam-research-themes/master/images/zenithdecker.png)
+![Zenithdecker](https://cdn.jsdelivr.net/gh/theianjones/roam-research-themes@master/images/zenithdecker.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/theianjones/roam-research-themes/master/zenithdecker.css');
+@import url('https://cdn.jsdelivr.net/gh/theianjones/roam-research-themes@master/zenithdecker.css');
 ```
 
 ---
 
 [Mappletons](https://github.com/theianjones/roam-research-themes#themes-currently-available)
 
-![Mappletons](https://raw.githubusercontent.com/theianjones/roam-research-themes/master/images/mappletons_screenshot_1.png)
+![Mappletons](https://cdn.jsdelivr.net/gh/theianjones/roam-research-themes@master/images/mappletons_screenshot_1.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/theianjones/roam-research-themes/master/mappletons.css');
+@import url('https://cdn.jsdelivr.net/gh/theianjones/roam-research-themes@master/mappletons.css');
 ```
 
 ---
 
 [Leyendecker](https://roamresearch.com/#/app/help/page/fJRcVITNY)
 
-![Leyendecker](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2Ffc9tIphX_X.png?alt=media&token=f6c09e01-742a-478d-a537-0b3a88796325)
+![Leyendecker](https://cdn.jsdelivr.net/gh/imlijq/awesome-roam-themes@master/images/Leyendecker.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/imlijq/awesome-roam-themes/master/Leyendecker.css');
+@import url('https://cdn.jsdelivr.net/gh/imlijq/awesome-roam-themes@master/Leyendecker.css');
 ```
 
 --- 
 
 [Zenith](https://roamresearch.com/#/app/help/page/fJRcVITNY)
 
-![Zenith](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FpF2OCzwlH2.png?alt=media&token=4bd42cd5-cd10-49a6-a915-a328ff067467)
+![Zenith](https://cdn.jsdelivr.net/gh/imlijq/awesome-roam-themes@master/images/Zenith.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/imlijq/awesome-roam-themes/master/Zenith.css');
+@import url('https://cdn.jsdelivr.net/gh/imlijq/awesome-roam-themes@master/Zenith.css');
 ```
 
 
@@ -55,20 +55,20 @@
 
 [Night Owlish](https://github.com/theianjones/roam-research-themes#themes-currently-available)
 
-![Night Owlish](https://raw.githubusercontent.com/theianjones/roam-research-themes/master/images/night_owlish_screenshot.png)
+![Night Owlish](https://cdn.jsdelivr.net/gh/theianjones/roam-research-themes@master/images/night_owlish_screenshot.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/theianjones/roam-research-themes/master/night-owl-ish.css');
+@import url('https://cdn.jsdelivr.net/gh/theianjones/roam-research-themes@master/night-owl-ish.css');
 ```
 
 ---
 
 [Dark Age](https://github.com/shodty/Roam_Dark_Age)
 
-![Dark Age](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2Froam%2FSsAlUAQzX4.png?alt=media&token=cfeecde3-b93e-4422-96cf-564db274b814)
+![Dark Age](https://cdn.jsdelivr.net/gh/shodty/Roam_Dark_Age@master/Images/Main.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/shodty/Roam_Dark_Age/master/Dark_Age_of_Roam.css');
+@import url('https://cdn.jsdelivr.net/gh/shodty/Roam_Dark_Age@master/Dark_Age_of_Roam.css');
 ```
 
 
@@ -76,11 +76,11 @@
 
 [Better Roam Research](https://github.com/linuz90/better-roam-research)
 
-![Better Roam Research](https://raw.githubusercontent.com/linuz90/better-roam-research/master/assets/preview-light.png)
-![Better Roam Research](https://raw.githubusercontent.com/linuz90/better-roam-research/master/assets/preview-dark.png)
+![Better Roam Research](https://cdn.jsdelivr.net/gh/linuz90/better-roam-research@master/assets/preview-light.png)
+![Better Roam Research](https://cdn.jsdelivr.net/gh/linuz90/better-roam-research@master/assets/preview-dark.png)
 
 ```css
-@import url('https://raw.githubusercontent.com/linuz90/better-roam-research/master/src/css/main.css');
+@import url('https://cdn.jsdelivr.net/gh/linuz90/better-roam-research@master/src/css/main.css');
 
 /* color customization */
 :root {
