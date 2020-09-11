@@ -1,4 +1,4 @@
-# roam-wolai-theme
+# roam-simple-theme
 
 
 
