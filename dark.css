@@ -54,6 +54,65 @@
     --kanban-text-hover: #00ee6b;
 }
 
+
+
+
+
+/* 字体--- */
+@font-face {
+    font-family: "zh quote";
+    src: local("PingFang SC Regular"), local("SimSun");
+    unicode-range: U+2018, U+2019, U+201c, U+201d;
+}
+@font-face {
+    font-family: "JetBrainsMono-Regular";
+    src: url(https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/fonts/JetBrainsMono/web/eot/JetBrainsMono-Regular.eot);
+    src: url(https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/fonts/JetBrainsMono/web/woff/JetBrainsMono-Regular.woff)
+            format("woff"),
+        url(https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/fonts/JetBrainsMono/web/woff2/JetBrainsMono-Regular.woff2)
+            format("woff2"),
+        url(https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/fonts/JetBrainsMono/ttf/JetBrainsMono-Regular.ttf)
+            format("truetype");
+}
+
+body,
+div,
+textarea {
+    font-family: "zh quote", -apple-system, BlinkMacSystemFont, "Noto Sans", "Noto Sans CJK SC",
+        "Microsoft YaHei", "微软雅黑", sans-serif, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: none, "tnum";
+}
+
+div,
+textarea {
+    font-weight: 400;
+    color: #3f4758;
+    font-size: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+    font-size: 3em;
+}
+
+/* Code Block、inline code */
+code,
+.CodeMirror-linenumber,
+.CodeMirror .CodeMirror-code pre {
+    font-family: JetBrainsMono-Regular, SFMono-Regular, Consolas, "Liberation Mono", Menlo,
+        monospace;
+}
+/* ---字体 */
+
+
+
+
 /*////////////////////////////////*/
 /*                                */
 /*     Container Sizing Fixes     */
