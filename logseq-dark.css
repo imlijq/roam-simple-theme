@@ -86,6 +86,7 @@ div::-webkit-scrollbar-thumb {
     background-color: rgb(var(--color-sidebarbg)) !important;
 }
 
+
 .CodeMirror-hscrollbar {
     height: 8px;
 }
@@ -193,14 +194,17 @@ div span,
     color: rgb(var(--color-mainfont));
 }
 .rm-reference-main strong{
-    color: rgb(var(--color-mainfont)) !important;
+	color: rgb(var(--color-mainfont)) !important;	
 }
+
 
 .roam-body .roam-app,
 .roam-topbar,
+.bp3-elevation-3,
 .bp3-menu {
-    background-color: rgb(var(--color-mainbg));
+    background-color: rgb(var(--color-mainbg)) !important;
 }
+
 
 .bp3-popover .bp3-popover-arrow-fill {
     fill: rgb(var(--color-mainbg));
@@ -219,13 +223,16 @@ div span,
 .rm-query .rm-query-title,
 .bp3-popover .bp3-popover-content,
 .bp3-dialog,
-.rm-pages-toolbar .toolbar-search-group .search-input {
+.rm-pages-toolbar .toolbar-search-group .search-input{
     background-color: rgb(var(--color-sidebarbg)) !important;
 }
 
-.rm-find-or-create-wrapper .rm-menu-item[style*="background"] {
-    background: rgb(var(--color-sidebarbg)) !important;
+.rm-find-or-create-wrapper .rm-menu-item[style*="background"],
+.dont-unfocus-block[style*="background"]{
+	background-color: rgb(var(--color-sidebarbg)) !important;  
 }
+
+
 
 .roam-body .roam-app .roam-sidebar-container .rm-graph-dropdown {
     background-color: rgb(var(--color-sidebarbg));
