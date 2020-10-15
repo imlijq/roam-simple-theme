@@ -1,3 +1,4 @@
+
 :root {
     --color-tag: 73, 197, 91;
     --color-mainfont: 164, 181, 182;
@@ -190,6 +191,7 @@ div span,
 .bp3-input[type="search"],
 .bp3-input.bp3-round,
 .level2,
+.bp3-button:not([class*="bp3-intent-"]),
 .rm-pages-title-text {
     color: rgb(var(--color-mainfont));
 }
@@ -201,6 +203,7 @@ div span,
 .roam-body .roam-app,
 .roam-topbar,
 .bp3-elevation-3,
+.sidebar-content .bp3-popover-wrapper,
 .bp3-menu {
     background-color: rgb(var(--color-mainbg)) !important;
 }
@@ -223,8 +226,11 @@ div span,
 .rm-query .rm-query-title,
 .bp3-popover .bp3-popover-content,
 .bp3-dialog,
+.roam-article .bp3-popover-wrapper,
+.rm-embed-container,
+.rm-inline-references,
 .rm-pages-toolbar .toolbar-search-group .search-input{
-    background-color: rgb(var(--color-sidebarbg)) !important;
+    background-color: rgb(var(--color-sidebarbg));
 }
 
 .rm-find-or-create-wrapper .rm-menu-item[style*="background"],
