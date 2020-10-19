@@ -192,6 +192,8 @@ div span,
 .bp3-input.bp3-round,
 .level2,
 .bp3-button:not([class*="bp3-intent-"]),
+.bp3-html-select select, 
+.bp3-select select,
 .rm-pages-title-text {
     color: rgb(var(--color-mainfont));
 }
@@ -225,14 +227,15 @@ div span,
 .confirmation-content-dialog,
 .rm-query .rm-query-title,
 .bp3-popover .bp3-popover-content,
-.bp3-dialog,
 .roam-article .bp3-popover-wrapper,
 .rm-embed-container,
 .rm-inline-references,
+.bp3-datepicker,
 .rm-pages-toolbar .toolbar-search-group .search-input{
     background-color: rgb(var(--color-sidebarbg));
 }
 
+.bp3-dialog,
 .rm-find-or-create-wrapper .rm-menu-item[style*="background"],
 .dont-unfocus-block[style*="background"]{
 	background-color: rgb(var(--color-sidebarbg)) !important;  
@@ -308,3 +311,19 @@ div span,
 .block-highlight-yellow {
     background-color: #2d2d2d;
 }
+
+
+
+
+
+/* mobile-------------------- */
+@media only screen and (max-width:768px){
+  .roam-sidebar-content .flex-h-box+.bp3-button.bp3-minimal {
+      display: flex;
+      justify-content: flex-end;
+      min-width: 88px;
+  }  
+}
+/* --------------------mobile */
+
+
