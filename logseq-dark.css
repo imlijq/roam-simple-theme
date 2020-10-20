@@ -127,7 +127,9 @@ div::-webkit-scrollbar-thumb {
 .CodeMirror span[role="presentation"] {
     color: #abb2bf;
 }
-.cm-s-default .cm-variable-2 {
+.cm-s-default .cm-variable-2,
+.cm-variable,
+.cm-property{
     color: #e06c75;
 }
 .cm-s-default .cm-number {
@@ -199,6 +201,10 @@ div span,
 }
 .rm-reference-main strong{
 	color: rgb(var(--color-mainfont)) !important;	
+}
+.rm-reference-main strong[style*='pointer']{
+    color: #ec6f35 !important;
+    font-weight: 600;	
 }
 
 
@@ -281,6 +287,11 @@ div span,
     color: #ec6f35;
     font-weight: 600;
 }
+strong[style*='pointer']{
+    color: #ec6f35;
+    font-weight: 600;	
+}
+
 
 .rm-all-pages .table .rm-pages-row {
     border-bottom: 1px solid rgb(57, 75, 89);
@@ -312,6 +323,12 @@ div span,
     background-color: #2d2d2d;
 }
 
+.controls .opacity-none{
+	opacity:1;
+}
+.roam-highlight{
+	background-color: hsl(50 100% 18% / 1);
+}
 
 
 
