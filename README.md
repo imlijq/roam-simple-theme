@@ -8,6 +8,6 @@
 2. Create a bullet point
 3. Create a code block of CSS
 4. Add this code: 
-`@import url('https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/logseq-dark.css');`
+`@import url('https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/dark.css');`
 or `@import url('https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/light.css');` 
-or `@import url('https://cdn.jsdelivr.net/gh/imlijq/roam-simple-theme@master/dark.css');` 
+
