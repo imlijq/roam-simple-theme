@@ -232,7 +232,6 @@ div span,
 .roam-body .roam-app,
 .roam-topbar,
 .bp3-elevation-3,
-.sidebar-content .bp3-popover-wrapper,
 .bp3-menu {
     background-color: rgb(var(--color-mainbg)) !important;
 }
@@ -245,7 +244,7 @@ div span,
     background-color: rgb(var(--color-mainfont));
 }
 .rm-bullet.rm-bullet--closed .rm-bullet__inner {
-    border-color: rgb(var(--color-mainfont));
+    border-color: rgba(var(--color-mainfont), 0.6);
 }
 
 .rm-reference-item,
@@ -354,9 +353,221 @@ hr {
     background-color: hsl(50 100% 18% / 1);
 }
 
+/* page preview 被 Code Block 遮盖-------------------- */
 #roam-toolkit-iframe-preview {
     z-index: 2000;
 }
+/* --------------------page preview 被 Code Block 遮盖 */
+
+/* 禁用 Roam 图片预览-------------------- */
+.bp3-overlay.bp3-overlay-scroll-container {
+    display: none;
+}
+/* --------------------禁用 Roam 图片预览 */
+
+/* Block 左侧对齐线-------------------- */
+/* 去掉 Roam 中的左边线，使用下边的 */
+.block-border-left {
+    border-left: none !important;
+}
+.flex-v-box.roam-block-container.block-bullet-view > .flex-v-box {
+    position: relative;
+}
+.flex-v-box.roam-block-container.block-bullet-view > .flex-v-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 7px;
+    width: 0;
+    height: 100%;
+    /* https://brandcolors.net/ AIESEC */
+    border-left: 1px solid #037ef3;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #00c16e;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #0cb9c1;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #f48924;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #f85a40;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #ffc845;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #52565e;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #037ef3;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #00c16e;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #0cb9c1;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #f48924;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #f85a40;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #ffc845;
+}
+.flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    .flex-v-box.roam-block-container.block-bullet-view
+    > .flex-v-box::before {
+    border-left: 1px solid #52565e;
+}
+/* --------------------Block 左侧对齐线 */
+
+/* 宽度-------------------- */
+.rm-block-text {
+    max-width: 880px;
+}
+/* --------------------宽度 */
+
+/* time title-------------------- */
+.rm-title-display[title="Monday"]::after,
+.rm-title-display[title="Tuesday"]::after,
+.rm-title-display[title="Wednesday"]::after,
+.rm-title-display[title="Thursday"]::after,
+.rm-title-display[title="Friday"]::after,
+.rm-title-display[title="Saturday"]::after,
+.rm-title-display[title="Sunday"]::after {
+    font-size: 0.2em;
+    line-height: 1em;
+    display: block;
+}
+.rm-title-display[title="Monday"]::after {
+    content: "星期一";
+}
+.rm-title-display[title="Tuesday"]::after {
+    content: "星期二";
+}
+.rm-title-display[title="Wednesday"]::after {
+    content: "星期三";
+}
+.rm-title-display[title="Thursday"]::after {
+    content: "星期四";
+}
+.rm-title-display[title="Friday"]::after {
+    content: "星期五";
+}
+.rm-title-display[title="Saturday"]::after {
+    content: "星期六";
+}
+.rm-title-display[title="Sunday"]::after {
+    content: "星期日";
+}
+/* --------------------time title */
 
 /* mobile-------------------- */
 @media only screen and (max-width: 768px) {
