@@ -1,3 +1,4 @@
+
 :root {
     --color-tag: 73, 197, 91;
     --color-mainfont: 164, 181, 182;
@@ -229,184 +230,30 @@ code {
 /* --------------------页面引用 */
 
 /* Block 左侧对齐线-------------------- */
-.rm-multibar{
-    /* 去掉 Roam 中的左边线，使用下边的 */
-  	display:none;
-}
-.roam-block-container>.rm-block-children {
-    margin-left: 22px;
-}
-.rm-block-main + .rm-block-children {
-    position: relative;
-}
-.rm-block-main + .rm-block-children::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 5px;
-    width: 0;
-    height: 100%;
-    /* https://brandcolors.net/ AIESEC */
-    border-left: 1px solid #037ef3;
-}
-.rm-block-children .rm-block-children .rm-block-main + .rm-block-children::before {
-    border-left: 1px solid #00c16e;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #0cb9c1;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #f48924;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #f85a40;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #ffc845;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #52565e;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #037ef3;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #00c16e;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #0cb9c1;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #f48924;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #f85a40;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #ffc845;
-}
-.rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-children
-    .rm-block-main
-    + .rm-block-children::before {
-    border-left: 1px solid #52565e;
-}
+/* https://brandcolors.net/ AIESEC */
+.rm-level-1>.rm-multibar{border-right-color:#037ef3;}
+.rm-level-2>.rm-multibar{border-right-color:#00c16e;}
+.rm-level-3>.rm-multibar{border-right-color:#0cb9c1;}
+.rm-level-4>.rm-multibar{border-right-color:#f48924;}
+.rm-level-5>.rm-multibar{border-right-color:#f85a40;}
+.rm-level-6>.rm-multibar{border-right-color:#ffc845;}
+.rm-level-7>.rm-multibar{border-right-color:#52565e;}
+.rm-level-8>.rm-multibar{border-right-color:#037ef3;}
+.rm-level-9>.rm-multibar{border-right-color:#00c16e;}
+.rm-level-10>.rm-multibar{border-right-color:#0cb9c1;}
+.rm-level-11>.rm-multibar{border-right-color:#f48924;}
+.rm-level-12>.rm-multibar{border-right-color:#f85a40;}
+.rm-level-13>.rm-multibar{border-right-color:#ffc845;}
+.rm-level-14>.rm-multibar{border-right-color:#52565e;}
 
+.rm-block-main + .rm-block-children::before {
+
+
+}
 /* --------------------Block 左侧对齐线 */
 
 /* 主体编辑区域宽度-------------------- */
-.roam-app .roam-body-main > div:nth-child(1) {
+/* .roam-app .roam-body-main > div:nth-child(1) {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
@@ -417,6 +264,24 @@ code {
 .rm-full-width {
     margin-right: 0;
 }
+.roam-block{
+  	flex:0 0 calc(100% - 40px);
+}
+.rm-autocomplete__wrapper{
+  	flex:0 0 calc(100% - 40px) !important;
+}
+.roam-block .rm-code-block {
+    margin-right: 0;
+} */
+.roam-block{
+  	flex:0 0 calc(100% - 40px);
+}
+.rm-autocomplete__wrapper{
+  	flex:0 0 calc(100% - 40px) !important;
+}
+.roam-block .rm-code-block {
+    margin-right: 0;
+} 
 /* --------------------主体编辑区域宽度 */
 
 /* 主体编辑区域颜色-------------------- */
